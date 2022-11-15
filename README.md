@@ -13,9 +13,9 @@ Our idea has two main parts: mask generation and adversarial patch generation.
   - Adversarial patch processing.
   - Design of loss function.
 
-$ x_{adv} = M \odot T_2(\sigma) + (1-M) \odot x $
+$x_{adv} = M \odot T_2(\sigma) + (1-M) \odot x$
 
-$ arg \mathop{min}_{\sigma} \mathbb{E}_{x\simX} [J_{obj} (T_1(x_{adv}), y_{attack})] $
+$arg \mathop{min}_{\sigma} \mathbb{E}_{x\simX} [J_{obj} (T_1(x_{adv}), y_{attack})]$
 
 ![attack_example](./data/attack_result/res_2_208.png "attack result")
 res_2_208.pngres_2_208.png
